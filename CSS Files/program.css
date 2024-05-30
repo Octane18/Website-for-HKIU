@@ -1,0 +1,61 @@
+.heading {
+    text-align: center;
+    font-size: 2.8em;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+.textbox, .video{
+
+    width: 50%;
+    float: left;
+    
+}
+.textbox{
+
+    padding-top:2%;
+    position: relative;
+
+}
+
+.textvideo1{
+    font-size: 2.5em;
+
+}
+.textvideo2{
+    font-size: 2.5em;
+    width: 90%;
+    margin-top: 60%;
+    padding-bottom: 20% ;
+    margin-left: 8%;
+    display: none;
+    
+
+}
+video{
+    width: 80%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 0.5%;
+
+ }
+
+
+ table{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+ }
+  tr, td{
+  
+    border: 1px solid black;
+  }
+ .table {
+    margin-top: 2%;
+    font-size: 1.6em;
+    margin-bottom: 2%;
+}
+th{
+    background-color: black;
+    color: white;
+}

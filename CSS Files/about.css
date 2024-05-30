@@ -1,0 +1,36 @@
+.about {
+    
+    border: 2px solid black;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+#table {
+    
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table caption {
+    background-color: lightgray;
+    font-size: 1.5em ;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+.table {
+    width: 100%;
+}
+.table-head{
+    background-color: bisque;
+}
+.table-row>:nth-child(even):hover {
+    background-color: lightgoldenrodyellow;
+}
+.table-row>:nth-child(odd):hover {
+    background-color: lightcyan;
+}

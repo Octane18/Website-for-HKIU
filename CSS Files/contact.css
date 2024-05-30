@@ -1,0 +1,27 @@
+.Contact {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4em;
+}
+.table{
+    text-align: center;
+}
+table{
+    border-collapse: collapse ;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+th{
+    background-color: seagreen;
+    color: white;
+    padding: 1%;
+}
+td{
+    background-color: bisque;
+    padding: 1%;
+}
+.mail{
+    text-decoration: underline;
+    color: blue;
+}

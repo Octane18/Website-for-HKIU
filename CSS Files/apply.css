@@ -1,0 +1,127 @@
+#welcome {
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4{
+    
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    font-weight: bold;
+    width: 20%;
+    text-align: center;
+    background-color: gray;
+    line-height: 20px;
+    padding: 0.5%;
+    font-size: 1.2em
+}
+form{
+    display: inline-block;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius:20px;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+label{
+    display: block;
+}
+button{
+    display: inline-block;
+}
+.forms{
+    display: none;
+}
+.Heading{
+    display: inline-block;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.forms{
+    width: 100%;
+    margin-top: 0;
+}
+
+
+
+.Apply-block{
+    border: 1px solid black;
+    border-radius:24px ;
+
+}
+.Text{
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 0;
+}
+#welcome {
+    font-size: 2.8em;
+}
+h3,h5{
+    margin-left: 0.5%;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width:40%;
+    font-size: 1.2em;
+    margin-left: 0.5%;
+}
+th{
+    background-color: seagreen;
+    color: white;}
+th, tr, td{
+    border: 1px solid lightblue;
+}
+.one:hover{
+    background-color: lightgray;
+}
+.two:hover{
+    background-color: antiquewhite;
+}
+.three:hover{
+    background-color: aquamarine;
+}
+
+#Engineering {
+    display: inline-block;
+}
+
+#resulting_table {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#TableErrorMessage {
+    text-align: center;
+    color: red;
+    font-size: 1.2em;
+
+}
+.changeTime {
+    margin-left: 0.5%;
+    font-weight: bold;
+    font-size: 1.1.em;
+
+}
+#TotalMajors {
+    font-size: 1.2em;
+}
+
+#submit {
+    margin-left:5%;
+}
+#reset {
+    margin-left:1%;
+}
+

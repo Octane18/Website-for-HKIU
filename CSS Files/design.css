@@ -1,0 +1,24 @@
+.Welcome{
+    background-color: seagreen;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+dt, dd{
+    font-size: 1.2em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:80%;
+    margin-left:10%;
+}
+tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+.t-heading{
+    background-color: black;
+    color: white;
+}

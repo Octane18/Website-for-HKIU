@@ -1,0 +1,20 @@
+.Apply-block, #welcome{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+h3,h5{
+    margin-left: 0.5%;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th, td, tr{
+    border: 1px solid lightgrey;
+}
