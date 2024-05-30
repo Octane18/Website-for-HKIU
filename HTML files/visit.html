@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Visit</title>
+    <link rel="stylesheet" type="text/CSS" href="../CSS files/common-file.css">
+    <link rel="stylesheet" href="../CSS files/visit.css" type="text/CSS">
+</head>
+
+
+<body>
+    <div id="Header">
+        <header >
+            <img src="../Images/logo.png" alt="Hong Kong Industrial University" width="400" height="100">
+            <h1>Hong Kong Industrial University</h1>
+        </header>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html" target="_self">Home</a></li> 
+            <li><a href="about.html" target="_self">About</a></li>
+            <li><a href="apply.html" target="_self">Apply</a></li>
+            <li><a href="visit.html" target="_self">Visit</a></li>
+            <li><a href="program.html" target="_self">Program</a></li>
+            <li><a href="contact.html" target="_self">Contact</a></li>
+        </ul> 
+    </nav>
+
+
+    <div class="Welcome">
+        <p>We warmly welcome you to visit us at our Kowloon campus and experience our vibrant learning community. Our campus is located in the Hong Kong 
+        Kowloon High-Tech Park, where we collaborate closely with institutes of the Chinese Academy of Sciences.</p>
+        <p>During your visit, you can explore our world-class facilities, including the Protein Folding Science Center, Hong Kong Advanced Computing Equipment, 
+        Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron Collider, and Hong Kong Supercomputer Facility. These facilities are available to our faculty, 
+        students, and researchers worldwide.</p>
+        <p>You will also have the chance to meet our renowned scholars and experts from home and abroad committed to providing students with cutting-edge knowledge and 
+        skills in their respective fields. Our faculty members are recognized leaders in their fields, and their research has been published in prestigious journals such as Cell, Nature, and Science.</p>
+        <p>We hope you will come and visit us soon to experience firsthand the dynamic and innovative community at Hong Kong Industrial University.</p>
+    </div>
+    <img class="Locationimage" src="../Images/location.jpg" alt="location" width="800" height="800">
+    <div class="Location-text">
+        <h3>Location</h3>
+        <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+        <p>Tel: (852) 1234 5678</p>
+        <p>Fax: (852) 8765 4321</p>
+        <p>Email: visit@hkiu.edu.hk</p>
+    </div>
+    <br><br>
+
+    <h3 class="end-greeting">Hong Kong Industrial University is having an open day on campus! Please make a reservation to visit our campus!</h3>
+    <div class="booking">
+        <form action="get" method="#">
+            <fieldset>
+                <legend class="legendbooking">Booking Information</legend>
+                <label class="Date" for="DDate">Date: </label>
+                <input type="date" name="Date" id="DDate"> <br>
+                <label class="Time" for="TTime">Time: </label>
+                <select name="Time" id="TTime">
+                    <option value="Option1">8:30-9:30am</option>
+                    <option value="Option2">9:30-10:30am</option>
+                    <option value="Option3">10:30-11:30am</option>
+                    <option value="Option4">1:30-2:30pm</option>
+                    <option value="Option5">2:30-4:00pm</option>
+                    <option value="Option6">4:00-5:00pm</option>
+                </select><br>
+                <label class="NOV" for="NOV">No.of Visitors: </label>
+                <input class="NOV" type="text" name="NNOV" id="NOV"> <br>
+                <br>
+                <div id="message"></div>
+                <div class="submit"><input type="submit" value="Check Availability"></div>
+                <div class="reset" ><input type="reset" value="Reset"></div>
+            </fieldset>
+     
+        </form>
+    </div>
+
+    <footer id="Footer">
+        <img src="../Images/footer_logo.png" alt="Hong Kong Industrial University" height="100" width="300">
+        <p>© CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design.html">Aahmad</a></p>
+    </footer>
+    <script src="../JS files/visit.js"></script>
+    <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+</body>
+
+
+</html>

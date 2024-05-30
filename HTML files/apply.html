@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply</title>
+    <link rel="stylesheet" type="text/CSS" href="../CSS files/common-file.css">
+    <link rel="stylesheet" href="../CSS files/apply.css" type="text/CSS" media="screen">
+    <link rel="stylesheet" href="../CSS files/apply-print.css" type="text/CSS" media="print">
+    <script src="../JS files/apply.js"></script>
+</head>
+
+
+
+<body>
+    <div id="Header">
+        <header>
+            <img src="../Images/logo.png" alt="Hong Kong Industrial University" width="400" height="100">
+            <h1>Hong Kong Industrial University</h1>
+        </header>
+    </div>
+
+    
+    <nav>
+        <ul>
+            <li><a href="home.html" target="_self">Home</a></li> 
+            <li><a href="about.html" target="_self">About</a></li>
+            <li><a href="apply.html" target="_self">Apply</a></li>
+            <li><a href="visit.html" target="_self">Visit</a></li>
+            <li><a href="program.html" target="_self">Program</a></li>
+            <li><a href="contact.html" target="_self">Contact</a></li>
+        </ul>
+    </nav>
+
+    <p id="welcome">Welcome to HKIU</p>
+
+ 
+    
+    <div class="Apply-block">
+        <h3 class="Text">Common Application to Undergraduate Program</h3>  
+        <h4 class="Heading" id="Engineeringheading">College of Engineering </h4>
+        <h4 class="Heading" id="Sciencesheading">College of Science</h4>
+        <h4 class="Heading" id="InterDischeading"> College of Interdisciplinary Studies </h4>
+        <div class="forms" id="Engineering">
+            <form action="#" method="get">
+                <img src="../Images/cs.png" alt="BSc in Computer Science and Technology" width="200" height="200">
+                <label for="BscCST">BSc in Computer Science and Technology</label>
+                <input type="text" name="BSinCST" id="BscCST">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/ei.png" alt="Electrical Information" width="200" height="200">
+                <label for="BEEi">BEng in Electronic Information</label>
+                <input type="text" name="BEinEi" id="BEEi">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/mse.png" alt="Material Sciences and Engineering" width="200" height="200">
+                <label for="BEMSE">BEng in Material Sciences and Engineering</label>
+                <input type="text" name="BEinMSE" id="BEMSE">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/mc.png" alt="Material and Chemicals" width="200" height="200">
+                <label for="BEMC">BEng in Material and Chemicals</label>
+                <input type="text" name="BEinMC" id="BEMC">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/est.png" alt="Electronic Science and Technology" width="200" height="200">
+                <label for="BSEST">BSc in Electronic Science and Technology</label>
+                <input type="text" name="BSinEST" id="BSEST">
+                <button>rank of choice</button>
+            </form>
+        </div> 
+
+ 
+        
+        <div class="forms" id="Sciences">
+            <form action="#" method="get">
+                <img src="../Images/phy.png" alt="Physics" width="200" height="200">
+                <label for="BSP">BSc in Physics</label>
+                <input type="text" name="BSinP" id="BSP">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/chem.png" alt="Chemistry" width="200" height="200">
+                <label for="BSC">BSc in Chemistry</label>
+                <input type="text" name="BSinChem" id="BSC">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/bio.png" alt="Biology" width="200" height="200">
+                <label for="BSB">Bachleors in Biology</label>
+                <input type="text" name="BSinB" id="BSB">
+                <button>rank of choice</button>
+            </form>
+        </div>
+
+
+           
+           
+       
+        <div class="forms" id="InterDisc">
+            <form action="#" method="get">
+                <img src="../Images/cogs.png" alt="Cognitive Sciences" width="200" height="200">
+                <label for="BSCogS">BSc in Cognitive Sciences</label>
+                <input type="text" name="BSinCogS" id="BSCogS">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/be.png" alt="Biomedical Engineering" width="200" height="200">
+                <label for="BEBE">BEng in Biomedical Engineering</label>
+                <input type="text" name="BEnginBE" id="BEBE">
+                <button>rank of choice</button>
+            </form>
+            <form action="#" method="get">
+                <img src="../Images/bm.png" alt="Biology and Medicine" width="200" height="200">
+                <label for="BSBM">BSc in Biology and Medicine</label>
+                <input type="text" name="BSinBM" id="BSBM">
+                <button>rank of choice</button>
+            </form>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <br>
+   <div class="final_selection">
+    <h3>Your chosen majors: </h3>
+    <p class="changeTime"></p>
+   <div>
+    <table id="resulting_table">
+        <tr>
+            <th>College</th>
+            <th>Major</th>
+            <th>Rank</th>
+        </tr>
+        <tr id="1">
+            <td></td>
+            <td></td>
+            <td>1</td>
+        </tr>
+        <tr id="2">
+            <td></td>
+            <td></td>
+            <td>2</td>
+        </tr>
+        <tr id="3">
+            <td></td>
+            <td></td>
+            <td>3</td>
+        </tr>
+        <tr id="4">
+            <td></td>
+            <td></td>
+            <td>4</td>
+        </tr>
+        <tr id="5">
+            <td></td>
+            <td></td>
+            <td>5</td>
+        </tr>
+        <tr id="6">
+            <td></td>
+            <td></td>
+            <td>6</td>
+        </tr>
+        <tr id="7">
+            <td></td>
+            <td></td>
+            <td>7</td>
+        </tr>
+        <tr id="8">
+            <td></td>
+            <td></td>
+            <td>8</td>
+        </tr>
+        <tr id="9">
+            <td></td>
+            <td></td>
+            <td>9</td>
+        </tr>
+        <tr id="10">
+            <td></td>
+            <td></td>
+            <td>10</td>
+        </tr>
+        
+        
+    </table>
+    </div>
+    <h3 id="TotalMajors">Total number of completed choices: 0</h3>
+    <br>
+    <input type="submit" value="submit" id="submit"> 
+    <input type="reset" value="clear" id="reset">
+    <br>
+    <br>
+    <p id="TableErrorMessage"></p>
+
+   </div>
+    <footer id="Footer">
+        <img src="../Images/footer_logo.png" alt="Hong Kong Industrial University" height="100" width="300">
+        <p>© CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design.html">Aahmad</a></p>
+    </footer>
+
+
+</body>
+
+</html>
