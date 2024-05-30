@@ -1,0 +1,23 @@
+#Welcome {
+    background-color: lightgray;
+    text-align: center;
+    padding: 0.01%;
+    font-size: 1.2em;
+}
+#Descriptions{
+    
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+    font-size: 1.5em;
+}
+#Text-Location {
+   
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 1.5em;
+}
+#Apply-image{
+    padding-top: 2%;
+}
